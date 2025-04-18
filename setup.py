@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="quickchat_sdk",
-    version="0.1",
+    version="0.1.1",
     author="GoofyMooCow",
     description="A simple SDK for interfacing with the Quick Chat chatting platform.",
     long_description=long_description,

@@ -20,7 +20,6 @@ def connect(connectionID=None):
             raise Exception(f"Failed to fetch WebSocket URL: {response.status_code}")
 
         websocket_url = 'wss://' + response.text.strip()
-        websocket_url = "wss://quickchat.serveo.net"
 
         print(f"Connecting to {websocket_url}")
 
